@@ -15,6 +15,7 @@ Keywords: WSI · Word Sense Induction · Data processing · Web search result cl
 CHERTOY is an implementation of the CHERTOY system designed by Tatjana Chernenko and Utaemon Toyota for the Word Sense Induction task (Task 11 at SemEval 2013). 
 This project encompasses the baseline system and 40 experimental variations.
 
+# RESULTS (please check the paper!)
 In the resulting [paper](https://github.com/TatjanaChernenko/word_sense_induction_CHERTOY_system/blob/main/Results.pdf) we provide an approach to improve word sense induction systems (WSI) 
 for web search result clustering.
 
