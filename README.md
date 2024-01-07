@@ -2,13 +2,7 @@
 
 Chernenko Tatjana, Toyota Utaemon
 
-(chernenko|toyota)@cl.uni-heidelberg.de
-
-Formal Semantics
-
-WS 2017/2018
-
-Dr. Vivi Nastase, Dr. Michael Herweg 
+2017/2018
 
 Institute of Computational Linguistics
 
@@ -16,14 +10,27 @@ Heidelberg University, Germany
 
 # CHERTOY
 
-This is an implementation of the CHERTOY system for the Word Sense Induction task (the Task 11 at SemEval 2013).
-This project also contains an implementation of the baseline and 40 experiments with it.
+Keywords: WSI · Word Sense Induction · Data processing · Web search result clustering · CHERTOY
 
-We experiment with language models, specific features and clustering algorithms based on the sense2vec and the sent2vec systems. 
-After having performed 40 carefully designed experiments we obtained interesting insights on the effects of several feature combinations which resulted in our WSI system CHERTOY.
+CHERTOY is an implementation of the CHERTOY system designed by Tatjana Chernenko and Utaemon Toyota for the Word Sense Induction task (Task 11 at SemEval 2013). 
+This project encompasses the baseline system and 40 experimental variations.
 
-The system creates semantic related clusters from the given snippets (the text fragments get back from the search engine) for each pre-defined ambiguous topic. 
-It makes the preprocessing of the input data, creates a language model using vector representations for each snippet with sense2vec and vector misture model (BOW representation with summarization for each snippet) and creates semantic clusters with the Mean Shift clustering algorithm.
+In the resulting [paper](https://github.com/TatjanaChernenko/word_sense_induction_CHERTOY_system/blob/main/Results.pdf) we provide an approach to improve word sense induction systems (WSI) 
+for web search result clustering.
+
+Our research delves into exploring language models, specific feature sets, and 
+clustering algorithms based on sense2vec and sent2vec. Through 
+meticulous experimentation across 40 variants, we have gained insightful observations 
+on the effects of various feature combinations. 
+These insights have culminated in the development of our Word Sense Induction (WSI) 
+system, CHERTOY.
+
+The system's primary objective is to generate semantically related 
+clusters from provided text snippets, sourced from search engine results, 
+for each predefined ambiguous topic. It undertakes data preprocessing, constructs 
+language models using vector representations for individual snippets using sense2vec, 
+employs a vector mixture model (BOW representation with summarization for each snippet), and generates 
+semantic clusters through the Mean Shift clustering algorithm.
 
 ## RUNNING INSTRUCTIONS
 
